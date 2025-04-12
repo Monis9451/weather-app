@@ -46,7 +46,7 @@ const Temp = ({weatherData}) => {
             Feels like 
             <span className='flex items-center gap-1'>
                 {Number.parseInt(weatherData.main.feels_like-273.15)}&nbsp;°C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <FontAwesomeIcon icon={faTemperatureThreeQuarters} className='white'/>
+                <FontAwesomeIcon icon={faTemperatureThreeQuarters} className='white absolute left-63'/>
             </span>
         </div>
         <br />
@@ -55,7 +55,7 @@ const Temp = ({weatherData}) => {
             Humidity 
             <span className='flex items-center gap-1'>
                 {weatherData.main.humidity}&nbsp;%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <FontAwesomeIcon icon={faDroplet} className='white'/>    
+                <FontAwesomeIcon icon={faDroplet} className='white absolute left-63'/>    
             </span>
         </div>
         <br />
@@ -64,7 +64,7 @@ const Temp = ({weatherData}) => {
             Wind Speed
             <span className='flex items-center gap-1'>
                 {weatherData.wind.speed}&nbsp;m/s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <FontAwesomeIcon icon={faWind} className='white'/>
+                <FontAwesomeIcon icon={faWind} className='white absolute left-63'/>
             </span>
         </div>
         <br />
@@ -73,7 +73,7 @@ const Temp = ({weatherData}) => {
             Visibility 
             <span className='flex items-center gap-1'>
                 {Number.parseInt(weatherData.visibility/1000)}&nbsp;km&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <FontAwesomeIcon icon={faEye} className='white'/>
+                <FontAwesomeIcon icon={faEye} className='white absolute left-63'/>
             </span>
         </div>
         <br />
