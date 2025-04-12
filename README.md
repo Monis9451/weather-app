@@ -1,0 +1,2 @@
+#weather-app
+It's a react weather app which gives the weather condition on the base of the location by extracting it from your IP address and also changes the backgrounds and icons according to the weather condition and after rendring you can also search for the custom city.
